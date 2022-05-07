@@ -1,0 +1,417 @@
+32
+24,0
+25,64
+25,192
+27,0
+15,0
+32,192
+56,0
+56,0
+128,0
+160,0
+192,0
+224,0
+96,127
+64,0
+136,0
+168,0
+200,0
+232,0
+104,127
+72,0
+144,0
+176,0
+208,0
+240,0
+112,127
+80,0
+152,0
+184,0
+216,0
+248,0
+120,0
+88,0
+1
+32
+24,0
+25,64
+25,192
+27,0
+15,0
+33,192
+57,0
+57,0
+129,0
+161,0
+193,0
+225,0
+97,127
+65,0
+137,0
+169,0
+201,0
+233,0
+105,127
+73,0
+145,0
+177,0
+209,0
+241,0
+113,127
+81,0
+153,0
+185,0
+217,0
+249,0
+121,0
+89,0
+1
+32
+24,0
+25,64
+25,192
+27,0
+15,0
+34,192
+58,0
+58,0
+130,0
+162,0
+194,0
+226,0
+98,127
+66,0
+138,0
+170,0
+202,0
+234,0
+106,127
+74,0
+146,0
+178,0
+210,0
+242,0
+114,127
+82,0
+154,0
+186,0
+218,0
+250,0
+122,0
+90,0
+1
+32
+24,0
+25,64
+25,192
+27,0
+15,0
+35,246
+59,0
+59,0
+131,31
+163,0
+195,0
+227,12
+99,0
+67,70
+139,26
+171,17
+203,0
+235,255
+107,0
+75,65
+147,29
+179,16
+211,19
+243,31
+115,0
+83,65
+155,26
+187,16
+219,19
+251,31
+123,0
+91,65
+1
+32
+24,0
+25,64
+25,192
+27,0
+15,0
+36,216
+60,0
+60,0
+132,223
+164,15
+196,7
+228,35
+100,34
+68,6
+140,223
+172,13
+204,6
+236,35
+108,42
+76,5
+148,159
+180,31
+212,5
+244,3
+116,24
+84,0
+156,159
+188,159
+220,2
+252,6
+124,0
+92,1
+1
+32
+24,0
+25,64
+25,192
+27,0
+15,0
+37,196
+61,0
+61,0
+133,31
+165,13
+197,0
+229,80
+101,20
+69,115
+141,20
+173,10
+205,1
+237,86
+109,0
+77,50
+149,31
+181,13
+213,0
+245,16
+117,20
+85,52
+157,15
+189,2
+221,1
+253,38
+125,0
+93,114
+1
+32
+24,0
+25,64
+25,192
+27,0
+15,0
+38,192
+62,0
+62,0
+134,208
+166,15
+198,0
+230,51
+102,32
+70,52
+142,19
+174,31
+206,0
+238,5
+110,20
+78,82
+150,26
+182,16
+214,0
+246,3
+118,22
+86,2
+158,27
+190,16
+222,0
+254,8
+126,0
+94,4
+1
+32
+24,0
+25,64
+25,192
+27,0
+15,0
+39,192
+63,0
+63,0
+135,208
+167,15
+199,0
+231,51
+103,32
+71,52
+143,19
+175,31
+207,0
+239,5
+111,20
+79,82
+151,26
+183,16
+215,0
+247,3
+119,22
+87,2
+159,27
+191,16
+223,0
+255,8
+127,0
+95,4
+1
+32 ; 32 commands to initalize all 8 instruments
+32, 215 ; # chan 0, enable, FL, CON
+96, 7   ; write $07 to reg $60
+128,24  ; write $18 to reg $80
+224,5   ; write $05 to reg $E0
+33, 215 ; # chan 1, enable, FL, CON
+97, 7
+129,24
+225,5
+34, 215 ; # chan 2, enable, FL, CON
+98, 7
+130,24
+226,5
+35, 215 ; # chan 3, enable, FL, CON
+99, 7
+131,24
+227,5
+36, 215 ; # chan 4, enable, FL, CON
+100,    7   ; write $07 to reg $60
+132,24  ; write $18 to reg $80
+226,5   ; write $05 to reg $E0
+37, 215 ; # chan 5, enable, FL, CON
+101,    7
+133,24
+229,5
+38, 215 ; # chan 6, enable, FL, CON
+102,    7
+134,24
+230,5
+39, 215 ; # chan 7, enable, FL, CON
+103,    7
+135,24
+231,5
+10
+3 ; send 3 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 74; set octave and note for ins 0 (midi chan 1)
+8, 0; turn off instrument0 (midi chan 1)
+30 ; skip 30 frames
+2 ; send 2 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 77; set octave and note for ins 0 (midi chan 1)
+30 ; skip 30 frames
+1 ; send 1 commands to the chip
+8, 0; turn off instrument0 (midi chan 1)
+30 ; skip 30 frames
+2 ; send 2 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 74; set octave and note for ins 0 (midi chan 1)
+30 ; skip 30 frames
+1 ; send 1 commands to the chip
+8, 0; turn off instrument0 (midi chan 1)
+30 ; skip 30 frames
+2 ; send 2 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 77; set octave and note for ins 0 (midi chan 1)
+30 ; skip 30 frames
+1 ; send 1 commands to the chip
+8, 0; turn off instrument0 (midi chan 1)
+30 ; skip 30 frames
+2 ; send 2 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 74; set octave and note for ins 0 (midi chan 1)
+30 ; skip 30 frames
+1 ; send 1 commands to the chip
+8, 0; turn off instrument0 (midi chan 1)
+30 ; skip 30 frames
+2 ; send 2 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 77; set octave and note for ins 0 (midi chan 1)
+30 ; skip 30 frames
+1 ; send 1 commands to the chip
+8, 0; turn off instrument0 (midi chan 1)
+30 ; skip 30 frames
+2 ; send 2 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 74; set octave and note for ins 0 (midi chan 1)
+30 ; skip 30 frames
+1 ; send 1 commands to the chip
+8, 0; turn off instrument0 (midi chan 1)
+30 ; skip 30 frames
+2 ; send 2 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 77; set octave and note for ins 0 (midi chan 1)
+30 ; skip 30 frames
+1 ; send 1 commands to the chip
+8, 0; turn off instrument0 (midi chan 1)
+30 ; skip 30 frames
+2 ; send 2 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 74; set octave and note for ins 0 (midi chan 1)
+30 ; skip 30 frames
+1 ; send 1 commands to the chip
+8, 0; turn off instrument0 (midi chan 1)
+30 ; skip 30 frames
+2 ; send 2 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 77; set octave and note for ins 0 (midi chan 1)
+30 ; skip 30 frames
+1 ; send 1 commands to the chip
+8, 0; turn off instrument0 (midi chan 1)
+30 ; skip 30 frames
+2 ; send 2 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 74; set octave and note for ins 0 (midi chan 1)
+30 ; skip 30 frames
+1 ; send 1 commands to the chip
+8, 0; turn off instrument0 (midi chan 1)
+30 ; skip 30 frames
+2 ; send 2 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 77; set octave and note for ins 0 (midi chan 1)
+30 ; skip 30 frames
+1 ; send 1 commands to the chip
+8, 0; turn off instrument0 (midi chan 1)
+30 ; skip 30 frames
+2 ; send 2 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 74; set octave and note for ins 0 (midi chan 1)
+30 ; skip 30 frames
+1 ; send 1 commands to the chip
+8, 0; turn off instrument0 (midi chan 1)
+30 ; skip 30 frames
+2 ; send 2 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 77; set octave and note for ins 0 (midi chan 1)
+30 ; skip 30 frames
+1 ; send 1 commands to the chip
+8, 0; turn off instrument0 (midi chan 1)
+30 ; skip 30 frames
+2 ; send 2 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 74; set octave and note for ins 0 (midi chan 1)
+30 ; skip 30 frames
+1 ; send 1 commands to the chip
+8, 0; turn off instrument0 (midi chan 1)
+30 ; skip 30 frames
+2 ; send 2 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 77; set octave and note for ins 0 (midi chan 1)
+30 ; skip 30 frames
+1 ; send 1 commands to the chip
+8, 0; turn off instrument0 (midi chan 1)
+30 ; skip 30 frames
+00

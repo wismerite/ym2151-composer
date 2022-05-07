@@ -1,0 +1,69 @@
+## 2 bytes system info
+1 byte: file version
+1 byte: system
+
+## 1 byte instrument mode
+1 byte: instrument mode
+
+## 4 bytes chanlfo
+1 byte: lfo / pms
+1 byte: fb
+1 byte: alg
+1 byte: lfo2 / ams
+
+## 11 bytes op info (repeated per op)
+1 Byte: MULT
+1 Byte: TL
+1 Byte: AR
+1 Byte: DR
+1 Byte: SL
+1 Byte: RR
+1 Byte: AM
+1 Byte: RS
+1 Byte: DT (DT2<<4 | DT on YM2151)
+1 Byte: D2R
+1 Byte: SSGEG_Enabled <<3 | SSGEG
+
+@:2 CH3
+//  LFRQ AMD PMD WF NFRQ
+LFO:   0  64  64  0    0
+// PAN FL CON AMS PMS SLOT NE
+CH: 64  0   5   0   0  127  0
+//  AR D1R D2R RR D1L  TL KS MUL DT1 DT2 AMS-EN
+M1: 31  13  17  6   8  18  1   1   0   0      0
+C1: 31  12   1  7   1   0  0   0   0   0      0
+M2: 31  12   1  7   1   0  0   1   0   0      0
+C2: 31  12   1  7   1   0  0   2   0   0      0
+
+
+00000000   1. [file version] 0B, 
+	   2. [system, ym2151] 08,
+	   
+	   3. [type, FM] 01 
+           
+           4. [lfo / pms] 00  
+	   5. [feedback] 04 
+           6. [algorithm] 04 
+           7. [lfo / ams] 00 
+		   MULT TL AR DR SL RR AM RS DT D2R SSGEG
+	   8. [M1]   01 07 1A 0E 08 0F 00 00 03 00  00
+           9. [C1]   01 11 1F 09 0F 0F 00 00 03 00  00 
+          10. [M2]   01 08 1F 09 0F 0F 00 00 03 00  00 
+          11. [C2]   00 24 1F 09 0F 0F 00 00 03 00  00                                                                      ...
+
+	1 Byte:   FILE_VERSION, must be 11 (0x0B) for DefleMask v0.12.0
+	1 Byte:  System:
+	  SYSTEM_GENESIS		0x02
+	  SYSTEM_SMS 			0x03
+	  SYSTEM_GAMEBOY		0x04
+	  SYSTEM_PCENGINE		0x05
+	  SYSTEM_NES			0x06
+	  SYSTEM_C64 (SID 8580) 0x07
+	  SYSTEM_C64 (SID 6581) 0x17
+	  SYSTEM_YM2151			0x08
+	  
+	1 Byte:   Instrument Mode (1=FM, 0=STANDARD)
+
+
+
+

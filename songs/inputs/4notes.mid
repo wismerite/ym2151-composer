@@ -1,0 +1,43 @@
+# MIDI-OX Version: 7.0.2.372
+# MIDI To Text Format - Opened: Tue 15-Oct-2019 20:58:37
+# The first MIDI event received will initiate timestamps
+MFile 0 1 120
+MTrk
+0 TimeSig 4/4 24 8
+0 Tempo 500000
+0 On   ch=1 n=77 v=30
+30 Off  ch=1 n=77 v=0
+120 On   ch=1 n=74 v=29
+150 Off  ch=1 n=74 v=0
+240 On   ch=1 n=77 v=34
+270 Off  ch=1 n=77 v=0
+360 On   ch=1 n=74 v=55
+390 Off  ch=1 n=74 v=0
+480 On   ch=1 n=77 v=30
+510 Off  ch=1 n=77 v=0
+600 On   ch=1 n=74 v=29
+630 Off  ch=1 n=74 v=0
+720 On   ch=1 n=77 v=34
+750 Off  ch=1 n=77 v=0
+840 On   ch=1 n=74 v=55
+870 Off  ch=1 n=74 v=0
+960 On   ch=1 n=77 v=30
+990 Off  ch=1 n=77 v=0
+1080 On   ch=1 n=74 v=29
+1110 Off  ch=1 n=74 v=0
+1200 On   ch=1 n=77 v=34
+1230 Off  ch=1 n=77 v=0
+1320 On   ch=1 n=74 v=55
+1350 Off  ch=1 n=74 v=0
+1440 On   ch=1 n=77 v=30
+1470 Off  ch=1 n=77 v=0
+1560 On   ch=1 n=74 v=29
+1590 Off  ch=1 n=74 v=0
+1680 On   ch=1 n=77 v=34
+1710 Off  ch=1 n=77 v=0
+1800 On   ch=1 n=74 v=55
+1830 Off  ch=1 n=74 v=0
+1920 On   ch=1 n=77 v=30
+1950 Off  ch=1 n=77 v=0
+TrkEnd
+# MIDI-OX: MIDI To Text Format - Closed: Tue 15-Oct-2019 20:58:45

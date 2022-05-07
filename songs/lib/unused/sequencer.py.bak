@@ -1,0 +1,161 @@
+from lib import tools
+
+class Seq():
+    def __init__(self):
+        self.patterns = []
+        #print(f"INIT {print(self.patterns)}")
+
+    def add_pattern(self, pattern):
+        #print(f"PRE ADD PATTERN {print(self.patterns)}")
+        self.patterns.append(pattern)
+        #print(f"ADD PATTERN {print(self.patterns)}")
+
+    def dumps_patterns(self):
+        
+        combined_patterns = []
+        
+        for pat in self.patterns:
+            #print(f"DUMP PATTERN {pat.dumps_pattern()}")
+            combined_patterns.append(pat.dumps_steps())
+           
+        #print(combined_patterns)
+
+        #combined_patterns.sort(key=tools.split_string)
+    
+        #print(combined_patterns)
+
+        flattened_patterns = tools.flatten(combined_patterns)
+
+        #print(flattened_patterns)
+
+        #flattened_patterns.sort(key = tools.split_string)
+   
+        #print(flattened_patterns)
+
+        #joined_patterns = '\n'.join(flattened_patterns)
+
+        return flattened_patterns
+
+    def generate_timestamps(self, song_length, signature, bpm):
+        # valid values for "signature":
+        # '4/4'
+        fps = 60
+        clock = 0
+
+        timestamped_sequence = []
+        
+        # bpm / 60 = beats per second
+        # 60 frames per second
+        # 1000 ms per second
+        # 16.6666667 ms per frame
+        # (60 / (bpm / 60) = 30 frames per beat
+        # 30 * 16.6666667 = 500 ms per beat
+
+        beats_per_second = bpm / fps
+        frames_per_beat = fps / beats_per_second
+        # 1000 ms in a second, looking for how long a frame takes
+        ms_per_beat = frames_per_beat * (1000 / fps)  
+
+        # TODO
+        beats_in_bar = signature.split('/')[0]
+        beat = signature.split('/')[1]
+        
+        signatures = {
+            
+                        "4/4": {
+                         
+                            "whole": ms_per_beat * 4,
+                            "half" : ms_per_beat * 2,
+                            "quarter": ms_per_beat,
+                            "eighth" : ms_per_beat / 2,
+                            "sixteenth": ms_per_beat / 4,
+                            "thirty-second": ms_per_beat / 8
+
+                            }
+                    }
+
+
+        patterns = self.dumps_patterns()
+        
+        for pattern in patterns:
+            split_pattern = pattern.split(" ")
+            note_length = split_pattern[0]
+            step = int(split_pattern[1])
+            cmd = split_pattern[2]
+            chan = split_pattern[3]
+            note = split_pattern[4]
+            division = split_pattern[5]
+            pattern_length = split_pattern[6]
+
+            note_ms = signatures[signature][length]
+            step_ms = ms_per_beat / int(division)
+            # based on 1 second
+            # we know number of ms per beat
+            # can divide ms/beat by number of steps
+            # gives us ms per step
+            # 
+            if cmd == "On" or cmd == "on":
+                timestamped_sequence.append(f"{int(clock + (step_ms * int(step)))} {cmd} {chan} {note}")
+                timestamped_sequence.append(f"{int(clock + (step_ms * step) + note_ms)} Off {chan}")
+                
+
+            clock += beats_in_bar * ms_per_beat 
+            #clock += (int(division) / 4) * ms_per_beat
+            print(timestamped_sequence)
+            
+
+            # TODO if cmd = "Par" 
+class Pattern:
+    def __init__(self, length, division):
+        self.steps = {}
+
+        for i in range(0, length):
+            self.steps["header"] = {
+                                        "pattern_length" : length,
+                                        "division" : division
+                                }
+            self.steps[i] = []
+
+        # clock
+        # tick
+        # division
+        # pattern_length
+    def add_note(self, chan = 3, note = 64, step = 0, note_length = "quarter"):
+        # valid values for "length" are:
+        # whole
+        # half
+        # quarter
+        # eighth
+        # sixteenth
+        # thirty-second
+
+        # valid values for "division" are:
+        # sixteenth
+        # thirty-second
+        
+        #print(f"CLOCK: {clock} CLOCK PLUS TICK: {clock + step * tick}")
+        self.steps[step].append(f"{note_length} {step} On ch={chan} n={note}")
+        #self.steps[step].append(f"{int(clock + (step * tick))} On ch={chan} n={note}")
+        #self.steps[step].append(f"{int(clock + (step * tick) + gate)} Off ch={chan}")
+        #print(f"STEP: {self.steps[step]}")
+
+    def get_pattern(self):
+        return self.steps
+
+    def dumps_steps(self):
+        combined_steps = []
+        
+        for key in self.steps.keys():
+            #print(key)
+            combined_steps.append(self.steps[key])
+        
+        #print(f"COMBINED STEPS {combined_steps}")
+        flattened_steps = tools.flatten(combined_steps)
+        
+
+        #flattened_steps.sort(key=tools.split_string)
+        #print(f"SORTED STEPS {flattened_steps}")
+        
+        #joined_steps = '\n'.join(flattened_steps)
+        #print(f"JOINED STEPS {joined_steps}") 
+        return flattened_steps

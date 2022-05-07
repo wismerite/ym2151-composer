@@ -1,0 +1,3205 @@
+32
+24,0
+25,64
+25,192
+27,0
+15,0
+32,192
+56,0
+56,0
+128,0
+160,0
+192,0
+224,0
+96,127
+64,0
+136,0
+168,0
+200,0
+232,0
+104,127
+72,0
+144,0
+176,0
+208,0
+240,0
+112,127
+80,0
+152,0
+184,0
+216,0
+248,0
+120,0
+88,0
+1
+32
+24,0
+25,64
+25,192
+27,0
+15,0
+33,192
+57,0
+57,0
+129,0
+161,0
+193,0
+225,0
+97,127
+65,0
+137,0
+169,0
+201,0
+233,0
+105,127
+73,0
+145,0
+177,0
+209,0
+241,0
+113,127
+81,0
+153,0
+185,0
+217,0
+249,0
+121,0
+89,0
+1
+32
+24,0
+25,64
+25,192
+27,0
+15,0
+34,192
+58,0
+58,0
+130,0
+162,0
+194,0
+226,0
+98,127
+66,0
+138,0
+170,0
+202,0
+234,0
+106,127
+74,0
+146,0
+178,0
+210,0
+242,0
+114,127
+82,0
+154,0
+186,0
+218,0
+250,0
+122,0
+90,0
+1
+32
+24,0
+25,64
+25,192
+27,0
+15,0
+35,246
+59,0
+59,0
+131,31
+163,0
+195,0
+227,12
+99,0
+67,70
+139,26
+171,17
+203,0
+235,255
+107,0
+75,65
+147,29
+179,16
+211,19
+243,31
+115,0
+83,65
+155,26
+187,16
+219,19
+251,31
+123,0
+91,65
+1
+32
+24,0
+25,64
+25,192
+27,0
+15,0
+36,216
+60,0
+60,0
+132,223
+164,15
+196,7
+228,35
+100,34
+68,6
+140,223
+172,13
+204,6
+236,35
+108,42
+76,5
+148,159
+180,31
+212,5
+244,3
+116,24
+84,0
+156,159
+188,159
+220,2
+252,6
+124,0
+92,1
+1
+32
+24,0
+25,64
+25,192
+27,0
+15,0
+37,196
+61,0
+61,0
+133,31
+165,13
+197,0
+229,80
+101,20
+69,115
+141,20
+173,10
+205,1
+237,86
+109,0
+77,50
+149,31
+181,13
+213,0
+245,16
+117,20
+85,52
+157,15
+189,2
+221,1
+253,38
+125,0
+93,114
+1
+32
+24,0
+25,64
+25,192
+27,0
+15,0
+38,192
+62,0
+62,0
+134,208
+166,15
+198,0
+230,51
+102,32
+70,52
+142,19
+174,31
+206,0
+238,5
+110,20
+78,82
+150,26
+182,16
+214,0
+246,3
+118,22
+86,2
+158,27
+190,16
+222,0
+254,8
+126,0
+94,4
+1
+32
+24,0
+25,64
+25,192
+27,0
+15,0
+39,192
+63,0
+63,0
+135,208
+167,15
+199,0
+231,51
+103,32
+71,52
+143,19
+175,31
+207,0
+239,5
+111,20
+79,82
+151,26
+183,16
+215,0
+247,3
+119,22
+87,2
+159,27
+191,16
+223,0
+255,8
+127,0
+95,4
+1
+32 ; 32 commands to initalize all 8 instruments
+32, 215 ; # chan 0, enable, FL, CON
+96, 7   ; write $07 to reg $60
+128,24  ; write $18 to reg $80
+224,5   ; write $05 to reg $E0
+33, 215 ; # chan 1, enable, FL, CON
+97, 7
+129,24
+225,5
+34, 215 ; # chan 2, enable, FL, CON
+98, 7
+130,24
+226,5
+35, 215 ; # chan 3, enable, FL, CON
+99, 7
+131,24
+227,5
+36, 215 ; # chan 4, enable, FL, CON
+100,    7   ; write $07 to reg $60
+132,24  ; write $18 to reg $80
+226,5   ; write $05 to reg $E0
+37, 215 ; # chan 5, enable, FL, CON
+101,    7
+133,24
+229,5
+38, 215 ; # chan 6, enable, FL, CON
+102,    7
+134,24
+230,5
+39, 215 ; # chan 7, enable, FL, CON
+103,    7
+135,24
+231,5
+10
+13 ; send 13 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 126; turn on instrument 6 (midi chan 13)
+46, 81; set octave and note for ins 6 (midi chan 13)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+7 ; send 7 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+1 ; skip 1 frames
+13 ; send 13 commands to the chip
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+1 ; skip 1 frames
+13 ; send 13 commands to the chip
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+12 ; send 12 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+8, 123; turn on instrument 3 (midi chan 4)
+43, 60; set octave and note for ins 3 (midi chan 4)
+1 ; skip 1 frames
+19 ; send 19 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 6; turn off instrument6 (midi chan 13)
+8, 3; turn off instrument3 (midi chan 4)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 126; turn on instrument 6 (midi chan 13)
+46, 83; set octave and note for ins 6 (midi chan 13)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+13 ; send 13 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 4; turn off instrument4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 2; turn off instrument2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+1 ; skip 1 frames
+17 ; send 17 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 126; turn on instrument 6 (midi chan 13)
+46, 84; set octave and note for ins 6 (midi chan 13)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 6; turn off instrument6 (midi chan 13)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 0; turn off instrument0 (midi chan 1)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+1 ; skip 1 frames
+11 ; send 11 commands to the chip
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+12 ; send 12 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 0; turn off instrument0 (midi chan 1)
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+12 ; send 12 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 2; turn off instrument2 (midi chan 3)
+8, 123; turn on instrument 3 (midi chan 4)
+43, 60; set octave and note for ins 3 (midi chan 4)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 3; turn off instrument3 (midi chan 4)
+1 ; skip 1 frames
+14 ; send 14 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 126; turn on instrument 6 (midi chan 13)
+46, 83; set octave and note for ins 6 (midi chan 13)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 6; turn off instrument6 (midi chan 13)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+11 ; send 11 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+1 ; skip 1 frames
+14 ; send 14 commands to the chip
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+12 ; send 12 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 0; turn off instrument0 (midi chan 1)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+7 ; send 7 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+1 ; skip 1 frames
+11 ; send 11 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+1 ; skip 1 frames
+14 ; send 14 commands to the chip
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+1 ; skip 1 frames
+11 ; send 11 commands to the chip
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+8, 123; turn on instrument 3 (midi chan 4)
+43, 60; set octave and note for ins 3 (midi chan 4)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+14 ; send 14 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 6; turn off instrument6 (midi chan 13)
+8, 3; turn off instrument3 (midi chan 4)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 126; turn on instrument 6 (midi chan 13)
+46, 81; set octave and note for ins 6 (midi chan 13)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 0; turn off instrument0 (midi chan 1)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+1 ; skip 1 frames
+11 ; send 11 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+14 ; send 14 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+1 ; skip 1 frames
+14 ; send 14 commands to the chip
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 6; turn off instrument6 (midi chan 13)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 126; turn on instrument 6 (midi chan 13)
+46, 80; set octave and note for ins 6 (midi chan 13)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 0; turn off instrument0 (midi chan 1)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+15 ; send 15 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 0; turn off instrument0 (midi chan 1)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 123; turn on instrument 3 (midi chan 4)
+43, 60; set octave and note for ins 3 (midi chan 4)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 3; turn off instrument3 (midi chan 4)
+1 ; skip 1 frames
+18 ; send 18 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 126; turn on instrument 6 (midi chan 13)
+46, 81; set octave and note for ins 6 (midi chan 13)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 6; turn off instrument6 (midi chan 13)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 4; turn off instrument4 (midi chan 11)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+11 ; send 11 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+12 ; send 12 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 2; turn off instrument2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 0; turn off instrument0 (midi chan 1)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+11 ; send 11 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+1 ; skip 1 frames
+14 ; send 14 commands to the chip
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+8, 123; turn on instrument 3 (midi chan 4)
+43, 60; set octave and note for ins 3 (midi chan 4)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+16 ; send 16 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 3; turn off instrument3 (midi chan 4)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 126; turn on instrument 6 (midi chan 13)
+46, 84; set octave and note for ins 6 (midi chan 13)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 6; turn off instrument6 (midi chan 13)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 0; turn off instrument0 (midi chan 1)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+7 ; send 7 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+1 ; skip 1 frames
+11 ; send 11 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+1 ; skip 1 frames
+15 ; send 15 commands to the chip
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 0; turn off instrument0 (midi chan 1)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+13 ; send 13 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+1 ; skip 1 frames
+12 ; send 12 commands to the chip
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 0; turn off instrument0 (midi chan 1)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+14 ; send 14 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+8, 123; turn on instrument 3 (midi chan 4)
+43, 60; set octave and note for ins 3 (midi chan 4)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+1 ; skip 1 frames
+17 ; send 17 commands to the chip
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 6; turn off instrument6 (midi chan 13)
+8, 3; turn off instrument3 (midi chan 4)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 126; turn on instrument 6 (midi chan 13)
+46, 83; set octave and note for ins 6 (midi chan 13)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+7 ; send 7 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+14 ; send 14 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 0; turn off instrument0 (midi chan 1)
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+1 ; skip 1 frames
+14 ; send 14 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+11 ; send 11 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+12 ; send 12 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 2; turn off instrument2 (midi chan 3)
+8, 123; turn on instrument 3 (midi chan 4)
+43, 60; set octave and note for ins 3 (midi chan 4)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 3; turn off instrument3 (midi chan 4)
+1 ; skip 1 frames
+11 ; send 11 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 65; set octave and note for ins 7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+13 ; send 13 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+1 ; skip 1 frames
+12 ; send 12 commands to the chip
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 65; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 65; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+15 ; send 15 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 126; turn on instrument 6 (midi chan 13)
+46, 84; set octave and note for ins 6 (midi chan 13)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 6; turn off instrument6 (midi chan 13)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 43; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 6; turn off instrument6 (midi chan 13)
+1 ; skip 1 frames
+22 ; send 22 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 126; turn on instrument 6 (midi chan 13)
+46, 83; set octave and note for ins 6 (midi chan 13)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 1; turn off instrument1 (midi chan 2)
+8, 4; turn off instrument4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 60; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 43; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+8, 123; turn on instrument 3 (midi chan 4)
+43, 60; set octave and note for ins 3 (midi chan 4)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+15 ; send 15 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 3; turn off instrument3 (midi chan 4)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 126; turn on instrument 6 (midi chan 13)
+46, 81; set octave and note for ins 6 (midi chan 13)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 6; turn off instrument6 (midi chan 13)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+15 ; send 15 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+7 ; send 7 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+13 ; send 13 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+1 ; skip 1 frames
+11 ; send 11 commands to the chip
+8, 2; turn off instrument2 (midi chan 3)
+8, 123; turn on instrument 3 (midi chan 4)
+43, 60; set octave and note for ins 3 (midi chan 4)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 6; turn off instrument6 (midi chan 13)
+8, 3; turn off instrument3 (midi chan 4)
+1 ; skip 1 frames
+18 ; send 18 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 126; turn on instrument 6 (midi chan 13)
+46, 83; set octave and note for ins 6 (midi chan 13)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+11 ; send 11 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 4; turn off instrument4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+12 ; send 12 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 2; turn off instrument2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+1 ; skip 1 frames
+13 ; send 13 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 126; turn on instrument 6 (midi chan 13)
+46, 84; set octave and note for ins 6 (midi chan 13)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 6; turn off instrument6 (midi chan 13)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 0; turn off instrument0 (midi chan 1)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+15 ; send 15 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+12 ; send 12 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 0; turn off instrument0 (midi chan 1)
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+8, 123; turn on instrument 3 (midi chan 4)
+43, 60; set octave and note for ins 3 (midi chan 4)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+16 ; send 16 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 3; turn off instrument3 (midi chan 4)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 126; turn on instrument 6 (midi chan 13)
+46, 83; set octave and note for ins 6 (midi chan 13)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 6; turn off instrument6 (midi chan 13)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+7 ; send 7 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+1 ; skip 1 frames
+11 ; send 11 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+1 ; skip 1 frames
+15 ; send 15 commands to the chip
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 0; turn off instrument0 (midi chan 1)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+1 ; skip 1 frames
+11 ; send 11 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+17 ; send 17 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+8, 123; turn on instrument 3 (midi chan 4)
+43, 60; set octave and note for ins 3 (midi chan 4)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+14 ; send 14 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 6; turn off instrument6 (midi chan 13)
+8, 3; turn off instrument3 (midi chan 4)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 126; turn on instrument 6 (midi chan 13)
+46, 81; set octave and note for ins 6 (midi chan 13)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 0; turn off instrument0 (midi chan 1)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+13 ; send 13 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+1 ; skip 1 frames
+7 ; send 7 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 6; turn off instrument6 (midi chan 13)
+1 ; skip 1 frames
+19 ; send 19 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 126; turn on instrument 6 (midi chan 13)
+46, 80; set octave and note for ins 6 (midi chan 13)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 0; turn off instrument0 (midi chan 1)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+12 ; send 12 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 0; turn off instrument0 (midi chan 1)
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+12 ; send 12 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 2; turn off instrument2 (midi chan 3)
+8, 123; turn on instrument 3 (midi chan 4)
+43, 60; set octave and note for ins 3 (midi chan 4)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 3; turn off instrument3 (midi chan 4)
+1 ; skip 1 frames
+14 ; send 14 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 126; turn on instrument 6 (midi chan 13)
+46, 81; set octave and note for ins 6 (midi chan 13)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 56; set octave and note for ins 7 (midi chan 14)
+8, 6; turn off instrument6 (midi chan 13)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+14 ; send 14 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+11 ; send 11 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+12 ; send 12 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 0; turn off instrument0 (midi chan 1)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+7 ; send 7 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+1 ; skip 1 frames
+11 ; send 11 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+1 ; skip 1 frames
+15 ; send 15 commands to the chip
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+8, 123; turn on instrument 3 (midi chan 4)
+43, 60; set octave and note for ins 3 (midi chan 4)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+14 ; send 14 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 3; turn off instrument3 (midi chan 4)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 126; turn on instrument 6 (midi chan 13)
+46, 84; set octave and note for ins 6 (midi chan 13)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 6; turn off instrument6 (midi chan 13)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 0; turn off instrument0 (midi chan 1)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+1 ; skip 1 frames
+11 ; send 11 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+15 ; send 15 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 0; turn off instrument0 (midi chan 1)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+15 ; send 15 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 0; turn off instrument0 (midi chan 1)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 38; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 123; turn on instrument 3 (midi chan 4)
+43, 60; set octave and note for ins 3 (midi chan 4)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 62; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 6; turn off instrument6 (midi chan 13)
+8, 3; turn off instrument3 (midi chan 4)
+1 ; skip 1 frames
+18 ; send 18 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 126; turn on instrument 6 (midi chan 13)
+46, 83; set octave and note for ins 6 (midi chan 13)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+7 ; send 7 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+12 ; send 12 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 0; turn off instrument0 (midi chan 1)
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+12 ; send 12 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 2; turn off instrument2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+14 ; send 14 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+11 ; send 11 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+8, 123; turn on instrument 3 (midi chan 4)
+43, 60; set octave and note for ins 3 (midi chan 4)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+13 ; send 13 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 3; turn off instrument3 (midi chan 4)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+1 ; skip 1 frames
+9 ; send 9 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 65; set octave and note for ins 7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+7 ; send 7 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+1 ; skip 1 frames
+11 ; send 11 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 65; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+1 ; skip 1 frames
+15 ; send 15 commands to the chip
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 1; turn off instrument1 (midi chan 2)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 65; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 2; turn off instrument2 (midi chan 3)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 65; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+13 ; send 13 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 126; turn on instrument 6 (midi chan 13)
+46, 84; set octave and note for ins 6 (midi chan 13)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 6; turn off instrument6 (midi chan 13)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 65; set octave and note for ins 7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+12 ; send 12 commands to the chip
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 43; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+1 ; skip 1 frames
+8 ; send 8 commands to the chip
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 4; turn off instrument4 (midi chan 11)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 6; turn off instrument6 (midi chan 13)
+1 ; skip 1 frames
+15 ; send 15 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 121; turn on instrument 1 (midi chan 2)
+41, 60; set octave and note for ins 1 (midi chan 2)
+8, 124; turn on instrument 4 (midi chan 11)
+44, 40; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 126; turn on instrument 6 (midi chan 13)
+46, 83; set octave and note for ins 6 (midi chan 13)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 0; turn off instrument0 (midi chan 1)
+1 ; skip 1 frames
+10 ; send 10 commands to the chip
+8, 1; turn off instrument1 (midi chan 2)
+8, 4; turn off instrument4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 45; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 122; turn on instrument 2 (midi chan 3)
+42, 60; set octave and note for ins 2 (midi chan 3)
+1 ; skip 1 frames
+16 ; send 16 commands to the chip
+8, 124; turn on instrument 4 (midi chan 11)
+44, 43; set octave and note for ins 4 (midi chan 11)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 52; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+8, 7; turn off instrument7 (midi chan 14)
+8, 2; turn off instrument2 (midi chan 3)
+8, 123; turn on instrument 3 (midi chan 4)
+43, 60; set octave and note for ins 3 (midi chan 4)
+8, 125; turn on instrument 5 (midi chan 12)
+45, 57; set octave and note for ins 5 (midi chan 12)
+8, 127; turn on instrument 7 (midi chan 14)
+47, 64; set octave and note for ins 7 (midi chan 14)
+8, 5; turn off instrument5 (midi chan 12)
+1 ; skip 1 frames
+00

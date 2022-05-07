@@ -1,0 +1,19 @@
+//Ripped by Luke McQueen
+//youtube.com/mcqueen8601
+
+@:0 CH1
+//  LFRQ AMD PMD WF NFRQ
+#    18   19  19  1B   0F
+LFO: 208  64  64  2    0
+// PAN FL CON AMS PMS SLOT NE
+#   20 20  20  38  38       0F
+CH: 64  7   4   0   4  127  0
+//  AR D1R D2R RR D1L  TL KS MUL DT1 DT2 AMS-EN
+#   80  A0  C0 E0  E0  60 80  40  40  C0     A0 
+M1: 31  31   0  1   0  30  0   0   3   0      0
+#   88  A8  C8 E8  E8  68 88  48  48  c8     A8
+C1:  8  16   0  4   1   0  0   0   3   0      0
+#   90  B0  D0 F0  F0  70 90  50  50  D0     B0
+M2: 31  31   0  1   0  30  0   0   6   0      0
+#   98  B8  D8 F8  F8  78 98  58   58 D8     B8
+C2:  8  16   0  4   1  19  0   1   6   0      0

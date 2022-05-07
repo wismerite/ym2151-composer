@@ -1,0 +1,384 @@
+3 ; send 3 commands to the chip
+8, 120; turn on instrument 0 (midi chan 1)
+40, 0; set octave and note for ins 0 (midi chan 1)
+40, 1; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 2; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 3; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 4; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 5; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 6; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 7; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 8; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 9; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 10; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 11; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 12; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 13; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 14; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 15; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 16; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 17; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 18; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 19; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 20; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 21; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 22; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 23; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 24; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 25; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 26; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 27; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 28; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 29; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 30; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 31; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 32; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 33; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 34; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 35; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 36; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 37; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 38; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 39; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 40; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 41; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 42; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 43; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 44; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 45; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 46; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 47; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 48; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 49; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 50; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 51; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 52; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 53; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 54; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 55; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 56; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 57; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 58; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 59; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 60; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 61; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 62; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 63; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 64; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 65; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 66; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 67; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 68; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 69; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 70; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 71; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 72; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 73; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 74; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 75; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 76; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 77; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 78; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 79; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 80; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 81; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 82; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 83; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 84; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 85; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 86; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 87; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 88; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 89; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 90; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 91; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 92; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 93; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 94; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 95; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 96; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 97; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 98; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 99; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 100; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 101; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 102; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 103; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 104; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 105; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 106; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 107; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 108; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 109; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 110; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 111; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 112; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 113; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 114; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 115; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 116; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 117; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 118; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 119; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 120; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 121; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 122; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 123; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 124; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 125; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 126; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+1 ; send 1 commands to the chip
+40, 127; set octave and note for ins 0 (midi chan 1)
+15 ; skip 15 frames
+00

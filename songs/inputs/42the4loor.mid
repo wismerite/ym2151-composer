@@ -1,0 +1,89 @@
+# MIDI-OX Version: 7.0.2.372
+# MIDI To Text Format - Opened: Tue 15-Oct-2019 20:33:40
+# The first MIDI event received will initiate timestamps
+MFile 0 1 120
+MTrk
+0 TimeSig 4/4 24 8
+0 Tempo 500000
+0 On   ch=10 n=60 v=96
+5 Off  ch=10 n=60 v=0
+60 On   ch=10 n=64 v=96
+65 Off  ch=10 n=64 v=0
+120 On   ch=10 n=60 v=96
+120 On   ch=10 n=62 v=96
+125 Off  ch=10 n=60 v=0
+125 Off  ch=10 n=62 v=0
+180 On   ch=10 n=64 v=96
+185 Off  ch=10 n=64 v=0
+240 On   ch=10 n=60 v=96
+245 Off  ch=10 n=60 v=0
+300 On   ch=10 n=64 v=96
+305 Off  ch=10 n=64 v=0
+360 On   ch=10 n=60 v=96
+360 On   ch=10 n=62 v=96
+365 Off  ch=10 n=60 v=0
+365 Off  ch=10 n=62 v=0
+420 On   ch=10 n=64 v=96
+425 Off  ch=10 n=64 v=0
+480 On   ch=10 n=60 v=96
+485 Off  ch=10 n=60 v=0
+540 On   ch=10 n=64 v=96
+545 Off  ch=10 n=64 v=0
+600 On   ch=10 n=60 v=96
+600 On   ch=10 n=62 v=96
+604 Off  ch=10 n=60 v=0
+605 Off  ch=10 n=62 v=0
+660 On   ch=10 n=64 v=96
+665 Off  ch=10 n=64 v=0
+720 On   ch=10 n=60 v=96
+725 Off  ch=10 n=60 v=0
+780 On   ch=10 n=64 v=96
+785 Off  ch=10 n=64 v=0
+840 On   ch=10 n=60 v=96
+840 On   ch=10 n=62 v=96
+845 Off  ch=10 n=60 v=0
+845 Off  ch=10 n=62 v=0
+900 On   ch=10 n=64 v=96
+905 Off  ch=10 n=64 v=0
+960 On   ch=10 n=60 v=96
+965 Off  ch=10 n=60 v=0
+1020 On   ch=10 n=64 v=96
+1025 Off  ch=10 n=64 v=0
+1080 On   ch=10 n=60 v=96
+1080 On   ch=10 n=62 v=96
+1085 Off  ch=10 n=60 v=0
+1085 Off  ch=10 n=62 v=0
+1140 On   ch=10 n=64 v=96
+1144 Off  ch=10 n=64 v=0
+1200 On   ch=10 n=60 v=96
+1205 Off  ch=10 n=60 v=0
+1260 On   ch=10 n=64 v=96
+1265 Off  ch=10 n=64 v=0
+1320 On   ch=10 n=60 v=96
+1320 On   ch=10 n=62 v=96
+1325 Off  ch=10 n=60 v=0
+1325 Off  ch=10 n=62 v=0
+1380 On   ch=10 n=64 v=96
+1385 Off  ch=10 n=64 v=0
+1440 On   ch=10 n=60 v=96
+1445 Off  ch=10 n=60 v=0
+1500 On   ch=10 n=64 v=96
+1505 Off  ch=10 n=64 v=0
+1560 On   ch=10 n=60 v=96
+1560 On   ch=10 n=62 v=96
+1565 Off  ch=10 n=60 v=0
+1565 Off  ch=10 n=62 v=0
+1620 On   ch=10 n=64 v=96
+1625 Off  ch=10 n=64 v=0
+1680 On   ch=10 n=60 v=96
+1685 Off  ch=10 n=60 v=0
+1740 On   ch=10 n=64 v=96
+1745 Off  ch=10 n=64 v=0
+1800 On   ch=10 n=60 v=96
+1800 On   ch=10 n=62 v=96
+1805 Off  ch=10 n=60 v=0
+1805 Off  ch=10 n=62 v=0
+1860 On   ch=10 n=64 v=96
+1865 Off  ch=10 n=64 v=0
+TrkEnd
+# MIDI-OX: MIDI To Text Format - Closed: Tue 15-Oct-2019 20:33:57

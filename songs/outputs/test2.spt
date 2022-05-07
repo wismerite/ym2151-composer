@@ -1,0 +1,33 @@
+20	; write 22 things to YM2151
+32,	215	; write $D7 to reg $20 - 
+40,	80	; write $50 to reg $28
+96,	7	; write $07 to reg $60
+128,24	; write $18 to reg $80
+224,5	; write $05 to reg $E0
+33,	215	; now set up channel 1
+41,	80
+97,	7
+129,24
+225,5	
+34,	215	; write $D7 to reg $20
+42,	80	; write $50 to reg $28
+98,	7	; write $07 to reg $60
+130,24	; write $18 to reg $80
+226,5	; write $05 to reg $E0
+35,	215	; now set up channel 1
+43,	80
+99,	7
+131,24
+227,5
+10 ; skip 10 frames
+10 ; send 11 commands to the chip
+8, 240; turn on instrument 0 (midi chan 1)
+40, 48; set octave and note for ins 0 (midi chan 1)
+8, 244; turn on instrument 4 (midi chan 11)
+44, 41; set octave and note for ins 4 (midi chan 11)
+8, 245; turn on instrument 5 (midi chan 12)
+45, 48; set octave and note for ins 5 (midi chan 12)
+8, 246; turn on instrument 6 (midi chan 13)
+46, 81; set octave and note for ins 6 (midi chan 13)
+8, 247; turn on instrument 7 (midi chan 14)
+47, 57; set octave and note for ins 7 (midi chan 14)

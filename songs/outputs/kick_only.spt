@@ -1,0 +1,49 @@
+# MIDI-OX Version: 7.0.2.372
+# MIDI To Text Format - Opened: Tue 15-Oct-2019 20:42:22
+# The first MIDI event received will initiate timestamps
+MFile 0 1 120
+MTrk
+0 TimeSig 4/4 24 8
+0 Tempo 500000
+0 On   ch=10 n=60 v=96
+5 Off  ch=10 n=60 v=0
+120 On   ch=10 n=60 v=96
+125 Off  ch=10 n=60 v=0
+240 On   ch=10 n=60 v=96
+245 Off  ch=10 n=60 v=0
+360 On   ch=10 n=60 v=96
+365 Off  ch=10 n=60 v=0
+480 On   ch=10 n=60 v=96
+485 Off  ch=10 n=60 v=0
+600 On   ch=10 n=60 v=96
+605 Off  ch=10 n=60 v=0
+720 On   ch=10 n=60 v=96
+725 Off  ch=10 n=60 v=0
+840 On   ch=10 n=60 v=96
+845 Off  ch=10 n=60 v=0
+960 On   ch=10 n=60 v=96
+965 Off  ch=10 n=60 v=0
+1080 On   ch=10 n=60 v=96
+1085 Off  ch=10 n=60 v=0
+1200 On   ch=10 n=60 v=96
+1205 Off  ch=10 n=60 v=0
+1320 On   ch=10 n=60 v=96
+1325 Off  ch=10 n=60 v=0
+1440 On   ch=10 n=60 v=96
+1445 Off  ch=10 n=60 v=0
+1560 On   ch=10 n=60 v=96
+1565 Off  ch=10 n=60 v=0
+1680 On   ch=10 n=60 v=96
+1685 Off  ch=10 n=60 v=0
+1800 On   ch=10 n=60 v=96
+1805 Off  ch=10 n=60 v=0
+1920 On   ch=10 n=60 v=96
+1925 Off  ch=10 n=60 v=0
+2040 On   ch=10 n=60 v=96
+2045 Off  ch=10 n=60 v=0
+2160 On   ch=10 n=60 v=96
+2165 Off  ch=10 n=60 v=0
+2280 On   ch=10 n=60 v=96
+2285 Off  ch=10 n=60 v=0
+TrkEnd
+# MIDI-OX: MIDI To Text Format - Closed: Tue 15-Oct-2019 20:42:38

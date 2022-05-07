@@ -1,0 +1,482 @@
+32
+24,210
+25,64
+25,192
+27,2
+15,0
+34,192
+58,0
+58,0
+130,223
+162,135
+194,5
+226,57
+98,25
+66,6
+138,223
+170,135
+202,0
+234,25
+106,53
+74,5
+146,223
+178,138
+210,4
+242,41
+114,18
+82,0
+154,159
+186,135
+218,5
+250,41
+122,0
+90,1
+1
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+11 ; skip 11 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+9 ; skip 9 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+1 ; skip 1 frames
+2 ; commands
+42, 36 ; Pitch
+8, 122 ; On
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+10 ; skip 10 frames
+1 ; commands
+8, 2 ; Off
+00

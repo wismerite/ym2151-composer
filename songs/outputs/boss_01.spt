@@ -1,0 +1,3662 @@
+11 ; 11 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+46, 81; note 6 (midi 13)
+8, 126; On 6 (midi 13)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+2 ; 2 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+4 ; 4 commands
+8, 5; Off 5 (midi 12)
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 7; Off 7 (midi 14)
+1 ; skip 1 frames
+2 ; 2 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+1 ; skip 1 frames
+7 ; 7 commands
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 7; Off 7 (midi 14)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 4; Off 4 (midi 11)
+2 ; skip 2 frames
+4 ; 4 commands
+8, 5; Off 5 (midi 12)
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+4 ; 4 commands
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+2 ; skip 2 frames
+8 ; 8 commands
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 7; Off 7 (midi 14)
+1 ; skip 1 frames
+2 ; 2 commands
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+1 ; skip 1 frames
+7 ; 7 commands
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+2 ; skip 2 frames
+8 ; 8 commands
+8, 2; Off 2 (midi 3)
+43, 60; note 3 (midi 4)
+8, 123; On 3 (midi 4)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+8, 6; Off 6 (midi 13)
+8, 3; Off 3 (midi 4)
+1 ; skip 1 frames
+4 ; 4 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+1 ; skip 1 frames
+7 ; 7 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+46, 83; note 6 (midi 13)
+8, 126; On 6 (midi 13)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 7; Off 7 (midi 14)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+7 ; 7 commands
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+2 ; skip 2 frames
+8 ; 8 commands
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+8, 4; Off 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 1; Off 1 (midi 2)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 7; Off 7 (midi 14)
+1 ; skip 1 frames
+2 ; 2 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+1 ; skip 1 frames
+9 ; 9 commands
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+46, 84; note 6 (midi 13)
+8, 126; On 6 (midi 13)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 6; Off 6 (midi 13)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+1 ; skip 1 frames
+2 ; 2 commands
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+2 ; skip 2 frames
+9 ; 9 commands
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 7; Off 7 (midi 14)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 4; Off 4 (midi 11)
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+2 ; 2 commands
+43, 60; note 3 (midi 4)
+8, 123; On 3 (midi 4)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 3; Off 3 (midi 4)
+2 ; skip 2 frames
+12 ; 12 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+46, 83; note 6 (midi 13)
+8, 126; On 6 (midi 13)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 6; Off 6 (midi 13)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 7; Off 7 (midi 14)
+1 ; skip 1 frames
+2 ; 2 commands
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+4 ; 4 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+5 ; 5 commands
+8, 0; Off 0 (midi 1)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+2 ; skip 2 frames
+9 ; 9 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+7 ; 7 commands
+43, 60; note 3 (midi 4)
+8, 123; On 3 (midi 4)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 6; Off 6 (midi 13)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 3; Off 3 (midi 4)
+1 ; skip 1 frames
+11 ; 11 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+46, 81; note 6 (midi 13)
+8, 126; On 6 (midi 13)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 7; Off 7 (midi 14)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 4; Off 4 (midi 11)
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+4 ; 4 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+2 ; 2 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+1 ; skip 1 frames
+7 ; 7 commands
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 7; Off 7 (midi 14)
+1 ; skip 1 frames
+2 ; 2 commands
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+1 ; skip 1 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 6; Off 6 (midi 13)
+1 ; skip 1 frames
+4 ; 4 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+1 ; skip 1 frames
+7 ; 7 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+46, 80; note 6 (midi 13)
+8, 126; On 6 (midi 13)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 7; Off 7 (midi 14)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 4; Off 4 (midi 11)
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+2 ; skip 2 frames
+9 ; 9 commands
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+5 ; 5 commands
+8, 1; Off 1 (midi 2)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+43, 60; note 3 (midi 4)
+8, 123; On 3 (midi 4)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 3; Off 3 (midi 4)
+2 ; skip 2 frames
+11 ; 11 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+46, 81; note 6 (midi 13)
+8, 126; On 6 (midi 13)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 6; Off 6 (midi 13)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+1 ; skip 1 frames
+2 ; 2 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+2 ; 2 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+1 ; skip 1 frames
+7 ; 7 commands
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+4 ; 4 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 7; Off 7 (midi 14)
+1 ; skip 1 frames
+2 ; 2 commands
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+4 ; 4 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+1 ; skip 1 frames
+4 ; 4 commands
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 7; Off 7 (midi 14)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 4; Off 4 (midi 11)
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+7 ; 7 commands
+43, 60; note 3 (midi 4)
+8, 123; On 3 (midi 4)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 3; Off 3 (midi 4)
+2 ; skip 2 frames
+12 ; 12 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+46, 84; note 6 (midi 13)
+8, 126; On 6 (midi 13)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 6; Off 6 (midi 13)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+4 ; 4 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+2 ; 2 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+1 ; skip 1 frames
+7 ; 7 commands
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+1 ; skip 1 frames
+2 ; 2 commands
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+2 ; skip 2 frames
+9 ; 9 commands
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+43, 60; note 3 (midi 4)
+8, 123; On 3 (midi 4)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+8, 6; Off 6 (midi 13)
+8, 3; Off 3 (midi 4)
+1 ; skip 1 frames
+4 ; 4 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+1 ; skip 1 frames
+7 ; 7 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+46, 83; note 6 (midi 13)
+8, 126; On 6 (midi 13)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+2 ; skip 2 frames
+9 ; 9 commands
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+7 ; 7 commands
+8, 0; Off 0 (midi 1)
+8, 1; Off 1 (midi 2)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+1 ; skip 1 frames
+2 ; 2 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+2 ; 2 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+1 ; skip 1 frames
+7 ; 7 commands
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+7 ; 7 commands
+8, 2; Off 2 (midi 3)
+43, 60; note 3 (midi 4)
+8, 123; On 3 (midi 4)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 3; Off 3 (midi 4)
+2 ; skip 2 frames
+9 ; 9 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 65; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+6 ; 6 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+47, 65; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 65; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+2 ; skip 2 frames
+9 ; 9 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+46, 84; note 6 (midi 13)
+8, 126; On 6 (midi 13)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 6; Off 6 (midi 13)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 43; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 5; Off 5 (midi 12)
+8, 7; Off 7 (midi 14)
+8, 6; Off 6 (midi 13)
+2 ; skip 2 frames
+13 ; 13 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+46, 83; note 6 (midi 13)
+8, 126; On 6 (midi 13)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+7 ; 7 commands
+8, 1; Off 1 (midi 2)
+8, 4; Off 4 (midi 11)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 60; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+1 ; skip 1 frames
+4 ; 4 commands
+44, 43; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+43, 60; note 3 (midi 4)
+8, 123; On 3 (midi 4)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 3; Off 3 (midi 4)
+2 ; skip 2 frames
+12 ; 12 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+46, 81; note 6 (midi 13)
+8, 126; On 6 (midi 13)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 6; Off 6 (midi 13)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+6 ; 6 commands
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+2 ; skip 2 frames
+8 ; 8 commands
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+1 ; skip 1 frames
+4 ; 4 commands
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 4; Off 4 (midi 11)
+2 ; skip 2 frames
+4 ; 4 commands
+8, 5; Off 5 (midi 12)
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+2 ; skip 2 frames
+8 ; 8 commands
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+7 ; 7 commands
+43, 60; note 3 (midi 4)
+8, 123; On 3 (midi 4)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 6; Off 6 (midi 13)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 3; Off 3 (midi 4)
+1 ; skip 1 frames
+11 ; 11 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+46, 83; note 6 (midi 13)
+8, 126; On 6 (midi 13)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+1 ; skip 1 frames
+4 ; 4 commands
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+2 ; skip 2 frames
+8 ; 8 commands
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+8, 4; Off 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+6 ; 6 commands
+8, 2; Off 2 (midi 3)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+2 ; skip 2 frames
+9 ; 9 commands
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+46, 84; note 6 (midi 13)
+8, 126; On 6 (midi 13)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 6; Off 6 (midi 13)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+1 ; skip 1 frames
+4 ; 4 commands
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 41; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+7 ; 7 commands
+43, 60; note 3 (midi 4)
+8, 123; On 3 (midi 4)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 3; Off 3 (midi 4)
+2 ; skip 2 frames
+12 ; 12 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+46, 83; note 6 (midi 13)
+8, 126; On 6 (midi 13)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 6; Off 6 (midi 13)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+2 ; skip 2 frames
+9 ; 9 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+1 ; skip 1 frames
+6 ; 6 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+2 ; skip 2 frames
+6 ; 6 commands
+8, 0; Off 0 (midi 1)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+2 ; 2 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+1 ; skip 1 frames
+7 ; 7 commands
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+7 ; 7 commands
+43, 60; note 3 (midi 4)
+8, 123; On 3 (midi 4)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 6; Off 6 (midi 13)
+1 ; skip 1 frames
+9 ; 9 commands
+8, 3; Off 3 (midi 4)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+46, 81; note 6 (midi 13)
+8, 126; On 6 (midi 13)
+1 ; skip 1 frames
+3 ; 3 commands
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+2 ; 2 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+1 ; skip 1 frames
+7 ; 7 commands
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 6; Off 6 (midi 13)
+2 ; skip 2 frames
+11 ; 11 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+46, 80; note 6 (midi 13)
+8, 126; On 6 (midi 13)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+1 ; skip 1 frames
+6 ; 6 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+2 ; skip 2 frames
+9 ; 9 commands
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+7 ; 7 commands
+43, 60; note 3 (midi 4)
+8, 123; On 3 (midi 4)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 3; Off 3 (midi 4)
+2 ; skip 2 frames
+11 ; 11 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+46, 81; note 6 (midi 13)
+8, 126; On 6 (midi 13)
+47, 56; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 6; Off 6 (midi 13)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+8 ; 8 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+6 ; 6 commands
+8, 0; Off 0 (midi 1)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+2 ; 2 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+1 ; skip 1 frames
+7 ; 7 commands
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+1 ; skip 1 frames
+6 ; 6 commands
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+7 ; 7 commands
+43, 60; note 3 (midi 4)
+8, 123; On 3 (midi 4)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 3; Off 3 (midi 4)
+2 ; skip 2 frames
+12 ; 12 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+46, 84; note 6 (midi 13)
+8, 126; On 6 (midi 13)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 6; Off 6 (midi 13)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+7 ; 7 commands
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+2 ; 2 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+1 ; skip 1 frames
+7 ; 7 commands
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 1; Off 1 (midi 2)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+1 ; skip 1 frames
+7 ; 7 commands
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+2 ; skip 2 frames
+9 ; 9 commands
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 38; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 48; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+2 ; 2 commands
+43, 60; note 3 (midi 4)
+8, 123; On 3 (midi 4)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 62; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 6; Off 6 (midi 13)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 3; Off 3 (midi 4)
+1 ; skip 1 frames
+11 ; 11 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+46, 83; note 6 (midi 13)
+8, 126; On 6 (midi 13)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+2 ; skip 2 frames
+9 ; 9 commands
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+2 ; skip 2 frames
+7 ; 7 commands
+8, 0; Off 0 (midi 1)
+8, 1; Off 1 (midi 2)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+8 ; 8 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+2 ; skip 2 frames
+8 ; 8 commands
+8, 2; Off 2 (midi 3)
+43, 60; note 3 (midi 4)
+8, 123; On 3 (midi 4)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 3; Off 3 (midi 4)
+2 ; skip 2 frames
+9 ; 9 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 65; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+2 ; 2 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 65; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+2 ; skip 2 frames
+9 ; 9 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+8, 1; Off 1 (midi 2)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 65; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+1 ; skip 1 frames
+7 ; 7 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+1 ; skip 1 frames
+1 ; 1 commands
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 65; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+2 ; skip 2 frames
+9 ; 9 commands
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+46, 84; note 6 (midi 13)
+8, 126; On 6 (midi 13)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 6; Off 6 (midi 13)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 5; Off 5 (midi 12)
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+6 ; 6 commands
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 65; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 43; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+1 ; skip 1 frames
+5 ; 5 commands
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 4; Off 4 (midi 11)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 5; Off 5 (midi 12)
+8, 7; Off 7 (midi 14)
+8, 6; Off 6 (midi 13)
+2 ; skip 2 frames
+13 ; 13 commands
+40, 48; note 0 (midi 1)
+8, 120; On 0 (midi 1)
+41, 60; note 1 (midi 2)
+8, 121; On 1 (midi 2)
+44, 40; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+46, 83; note 6 (midi 13)
+8, 126; On 6 (midi 13)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 0; Off 0 (midi 1)
+2 ; skip 2 frames
+7 ; 7 commands
+8, 1; Off 1 (midi 2)
+8, 4; Off 4 (midi 11)
+45, 45; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+1 ; skip 1 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+42, 60; note 2 (midi 3)
+8, 122; On 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+44, 43; note 4 (midi 11)
+8, 124; On 4 (midi 11)
+45, 52; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 57; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+2 ; 2 commands
+8, 7; Off 7 (midi 14)
+8, 2; Off 2 (midi 3)
+2 ; skip 2 frames
+7 ; 7 commands
+43, 60; note 3 (midi 4)
+8, 123; On 3 (midi 4)
+45, 57; note 5 (midi 12)
+8, 125; On 5 (midi 12)
+47, 64; note 7 (midi 14)
+8, 127; On 7 (midi 14)
+8, 5; Off 5 (midi 12)
+2 ; skip 2 frames
+3 ; 3 commands
+8, 7; Off 7 (midi 14)
+8, 4; Off 4 (midi 11)
+8, 3; Off 3 (midi 4)
+1 ; skip 1 frames
+00
