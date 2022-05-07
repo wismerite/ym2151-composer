@@ -38,11 +38,11 @@ Essentially, you create some `Steps`, then some `Patterns` to hold them and then
 
 **sp**: file extension for binary files to be fed to YM2151
 * Stands for "Star Path", an old music alias of mine
-    * Yes, yes, it's not a useful name\
+    * Yes, yes, it's not a useful name
 * none of this code directly deals with .sp files, see [x16-music-player](https://github.com/jjbliss/x16-music-player) instead
 
 **spt**: file extenstion for "SP Textfile"
-* Is output from 
+* a series of commands and values sent to the YM2151 to represent both notes and controls
 * Each line *must* have:
     * An integer representing the YM2151 command followed by a comma
     * An integer representing the value for the command
@@ -50,7 +50,8 @@ Essentially, you create some `Steps`, then some `Patterns` to hold them and then
     * A comment, delimited by a semicolon after any commands or data
 
 **spi**: file extenstion for "SP Instrument"
-* An instrument is really just a series of commands send to the YM2151 which configures its operators and modulators.
+* `.spi` files are very similar to `.spt`
+    * just a series of commands send to the YM2151 which configures the operators to produce a specific timbre.
 * Each line *must* have:
     * An integer representing the YM2151 command followed by a comma
     * An integer representing the value for the command
