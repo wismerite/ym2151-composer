@@ -26,6 +26,7 @@ It has several utilities:
     * Stands for "Star Path", an old music alias of mine
         * Yes, yes, it's not a useful name\
     * none of this code directly deals with .sp files, see [x16-music-player](https://github.com/jjbliss/x16-music-player) instead
+
 **spt**: file extenstion for "SP Textfile"
     * Is output from 
     * Each line *must* have:
@@ -33,6 +34,7 @@ It has several utilities:
         * An integer representing the value for the command
     * Each line *can* have:
         * A comment, delimited by a semicolon after any commands or data
+
 **spi**: file extenstion for "SP Instrument"
     * An instrument is really just a series of commands send to the YM2151 which configures its operators and modulators.
     * Each line *must* have:
@@ -46,7 +48,26 @@ It has several utilities:
 #### spt file with comments
 
 ``` 
-
+12	; write six things to YM2151
+32,	215	; write $D7 to reg $20
+40,	80	; write $50 to reg $28
+96,	7	; write $07 to reg $60
+128,24	; write $18 to reg $80
+224,5	; write $05 to reg $E0
+8,	8	; write $08 to reg $08
+33,	215	; now set up channel 1
+41,	80
+97,	7
+129,24
+225,5
+8,	9
+10	; wait 10 frames
+1	; read 1 command
+40, 244 ; write 244 to reg 40
+10	; wait 10 frames
+1	; read 1 command
+40, 100 ; write 100 to reg 40
+10	; wait 10 frames
 ```
 
 #### midi file from midi-ox 
@@ -65,6 +86,8 @@ schema: timestamp, on/off, channel, note, velocity
 30 On   ch=12 n=52 v=110
 30 On   ch=14 n=60 v=31
 ```
+
+
 
 ## References and Resources
 
