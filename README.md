@@ -1,11 +1,12 @@
-# VGM_MUSIC
-### An attempt at writing a music composition tool for the YM2151 in python
+# ym2151-composer
 
 Hello!  As you look through this, please keep in mind that it was one of, if not the, first code I wrote that wasn't a one-file shell or python script.
 
 ## What is this?
 
-In early 2019, a friend was writing a game engine for the [Commander X16](https://www.commanderx16.com/forum/index.php?/home/).  He was developing a small game alongside it as part of the engine development and asked me if I wanted to compose music and sound effects for it.  I said "yes", but there was one catch: at the time, the Commander X16 used only the [YM2151](https://en.wikipedia.org/wiki/Yamaha_YM2151) and I had never programmed for a microcontroller before.  Still, it seemed fun so I hopped in and began writing this code.  Development stopped in mid-late 2019.
+It was an attempt to write a music composition tool for the YM2151 in python.
+
+In early 2019, a friend was writing a game engine for the [Commander X16](https://www.commanderx16.com/forum/index.php?/home/).  He was developing a small game alongside it as part of the engine development and asked me if I wanted to compose music and sound effects for it.  I said "yes", but there was one catch: at the time, the Commander X16 used only the [YM2151](https://en.wikipedia.org/wiki/Yamaha_YM2151) and I had never programmed for a microcontroller before.  Still, it seemed fun so I hopped in and began writing this code.  Development stopped in mid-late 2019 and no further updates are planned at this time unless my interest piques again.
 
 ## What does it do?
 
