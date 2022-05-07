@@ -58,9 +58,9 @@ Essentially, you create some `Steps`, then some `Patterns` to hold them and then
 * Each line *can* have:
     * A comment, delimited by a semicolon after any commands or data
 
-## Data examples
+## Data snippets
 
-#### spt file with comments
+#### spt data with comments
 
 ``` 
 12	; write six things to YM2151
@@ -85,7 +85,26 @@ Essentially, you create some `Steps`, then some `Patterns` to hold them and then
 10	; wait 10 frames
 ```
 
-#### midi file from midi-ox 
+#### spi data without comments
+
+```
+32
+24,0
+25,0
+25,128
+27,0
+15,0
+32,252
+56,0
+56,0
+128,31
+160,24
+192,25
+224,207
+96,0
+```
+
+#### midi data from midi-ox 
 
 ```
 schema: timestamp, on/off, channel, note, velocity
@@ -106,16 +125,15 @@ schema: timestamp, on/off, channel, note, velocity
 
 ## References and Resources
 
-* YM2151 original manual: http://map.grauw.nl/resources/sound/yamaha_ym2151_synthesis.pdf
-* YM2151 Registers: https://w.atwiki.jp/mxdrv/pages/24.html
-* Commander X16 programmer's guide: https://github.com/commanderx16/x16-docs/blob/master/Commander%20X16%20Programmer's%20Reference%20Guide.md
-* VGM file format: http://www.smspower.org/Music/VGMFileFormat 
+* [YM2151 original manual](http://map.grauw.nl/resources/sound/yamaha_ym2151_synthesis.pdf)
+* [YM2151 Registers](https://w.atwiki.jp/mxdrv/pages/24.html)
+* [Commander X16 programmer's guide](https://github.com/commanderx16/x16-docs/blob/master/Commander%20X16%20Programmer's%20Reference%20Guide.md)
+* [VGM spec](http://www.smspower.org/Music/VGMFileFormat) 
 
 
 ### External tools
 
-* Music player for Commander X16: https://github.com/jjbliss/x16-music-player
-    * has utilities
-* Commander X16 emulator in a browser: https://x16.io
-* Commander X16 emulator binaries: https://www.commanderx16.com/forum/files/
-* Commander X16 on github: https://github.com/commanderx16
+* [Music player for Commander X16](https://github.com/jjbliss/x16-music-player)
+* [Commander X16 emulator in a browser](https://x16.io)
+* [Commander X16 emulator binaries](https://www.commanderx16.com/forum/files/)
+* [Commander X16 project on github](https://github.com/commanderx16)
