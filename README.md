@@ -28,32 +28,34 @@ For now, you don't.  It's currently non-functional and doesn't work well anyway.
 How it *did* work at one time was:
 
 1) Create a script such as the ones in `songs/`
-2) Run said script
+2) Run said script to generate an spt file
+3) Convert from spt to SP using `spconvert.py` from [x16-music-player](https://github.com/jjbliss/x16-music-player)
+4) Use [x16-music-player](https://github.com/jjbliss/x16-music-player) to play the SP file in a Commander X16 emulator.
 
 Essentially, you create some `Steps`, then some `Patterns` to hold them and then put the patterns in a `Sequencer` before finally calling `to_spt()` on your `Sequencer`.  Right now, it doesn't produce an output file, but that is what it was intended to do.
 
 ## Glossary
 
 **sp**: file extension for binary files to be fed to YM2151
-    * Stands for "Star Path", an old music alias of mine
-        * Yes, yes, it's not a useful name\
-    * none of this code directly deals with .sp files, see [x16-music-player](https://github.com/jjbliss/x16-music-player) instead
+* Stands for "Star Path", an old music alias of mine
+    * Yes, yes, it's not a useful name\
+* none of this code directly deals with .sp files, see [x16-music-player](https://github.com/jjbliss/x16-music-player) instead
 
 **spt**: file extenstion for "SP Textfile"
-    * Is output from 
-    * Each line *must* have:
-        * An integer representing the YM2151 command followed by a comma
-        * An integer representing the value for the command
-    * Each line *can* have:
-        * A comment, delimited by a semicolon after any commands or data
+* Is output from 
+* Each line *must* have:
+    * An integer representing the YM2151 command followed by a comma
+    * An integer representing the value for the command
+* Each line *can* have:
+    * A comment, delimited by a semicolon after any commands or data
 
 **spi**: file extenstion for "SP Instrument"
-    * An instrument is really just a series of commands send to the YM2151 which configures its operators and modulators.
-    * Each line *must* have:
-        * An integer representing the YM2151 command followed by a comma
-        * An integer representing the value for the command
-    * Each line *can* have:
-        * A comment, delimited by a semicolon after any commands or data
+* An instrument is really just a series of commands send to the YM2151 which configures its operators and modulators.
+* Each line *must* have:
+    * An integer representing the YM2151 command followed by a comma
+    * An integer representing the value for the command
+* Each line *can* have:
+    * A comment, delimited by a semicolon after any commands or data
 
 ## Data examples
 
