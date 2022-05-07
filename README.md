@@ -20,6 +20,17 @@ It has several utilities:
 * `convert_dmp.py` is used to convert .dmp instruments to .spi
 * `convert_opm.py` is used to convert .opm instruments to .spi
 
+## How do I use it?
+
+For now, you don't.  It's currently non-functional and doesn't work well anyway.  
+
+How it *did* work at one time was:
+
+1) Create a script such as the ones in `songs/`
+2) Run said script
+
+Essentially, you create some `Steps`, then some `Patterns` to hold them and then put the patterns in a `Sequencer` before finally calling `to_spt()` on your `Sequencer`.  Right now, it doesn't produce an output file, but that is what it was intended to do.
+
 ## Glossary
 
 **sp**: file extension for binary files to be fed to YM2151
@@ -104,34 +115,3 @@ schema: timestamp, on/off, channel, note, velocity
 * Commander X16 emulator in a browser: https://x16.io
 * Commander X16 emulator binaries: https://www.commanderx16.com/forum/files/
 * Commander X16 on github: https://github.com/commanderx16
-
-
-2.93 KB
-[9:29 PM] Phalset: the script convert.sh contains the command to run the python script that will convert the text file music.spt to MUSIC.SP
-[9:30 PM] Phalset: and to run this in the emulator you need run the command 
-/location/of/emulator/x16emu -prg PLAYER.PRG -run
-[9:31 PM] sunbunbird: 👍
-[9:31 PM] sunbunbird: what's the "t" in spt stand for? text?
-9:33 PM] sunbunbird: okay, so if i can generate a text file in the spt format, your script can convert it to binary for use with the game?
-
-
-python3 spconvert.py -i music.spt -o MUSIC.SP -mode dec
-that will read music.spt and expect decimal values
-
-
-[10:17 PM] Phalset: could you send me an example of a file that you're converting from?
-[10:17 PM] sunbunbird: sure
-[10:18 PM] sunbunbird:
-0 On   ch=1 n=48 v=91
-0 On   ch=11 n=41 v=123
-0 On   ch=12 n=48 v=101
-0 On   ch=13 n=81 v=125
-1 On   ch=14 n=57 v=97
-14 Off  ch=12 n=48 v=101
-15 Off  ch=14 n=57 v=97
-28 Off  ch=1 n=48 v=91
-30 On   ch=12 n=52 v=110
-30 On   ch=14 n=60 v=31
-[10:18 PM] Phalset: So is the number on the left a frame number?
-[10:19 PM] sunbunbird: more or less, it's ms in hex which gets converted to a frame number
-[10:21 PM] Phalset: I'd say keep track of the previous frame number, and then when it is different, you make a new Frame object and write the difference in frame numbers to the Frame object as the delay.
